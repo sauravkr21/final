@@ -9,7 +9,7 @@ const Announcement = () => {
   const navigate =useNavigate();
   const callAnnounce =async()=>{
     try{
-       const res = await fetch('/announcement',{
+       const res = await fetch('https://final-gto2.onrender.com/announcement',{
         method:"GET",
         headers:{
           Accept:"application/json",

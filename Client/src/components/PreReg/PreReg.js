@@ -16,7 +16,7 @@ const PreRegistration = () => {
   const callPrePage = () => new Promise(async (resolve, reject) => {
     let res;
     try {
-      res = await fetch('/preRegistration', {
+      res = await fetch('https://final-gto2.onrender.com/preRegistration', {
         method: "GET",
         headers: {
           Accept: "application/json",

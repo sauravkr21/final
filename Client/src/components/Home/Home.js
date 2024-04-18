@@ -7,7 +7,7 @@ const Home = () => {
   const navigate =useNavigate();
   const callHomePage =async()=>{
     try{
-      const res = await fetch('/user',{// TODO
+      const res = await fetch('https://final-gto2.onrender.com/user',{// TODO
         method:"GET",
         headers:{
           Accept:"application/json",

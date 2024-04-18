@@ -26,7 +26,7 @@ const Admin = () => {
   const callAdminPage =()=>new Promise(async(resolve, reject)=>{
     let res;
     try{
-      res = await fetch('/admin',{
+      res = await fetch('https://final-gto2.onrender.com/admin',{
         method:"GET", 
         headers:{
         Accept:"application/json",

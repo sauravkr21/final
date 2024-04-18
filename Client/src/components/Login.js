@@ -14,7 +14,7 @@ const Login = () => {
     const toastId=toast.loading("Logging in...");
     e.preventDefault();
     try{
-      const res = await fetch('/login',{
+      const res = await fetch('https://final-gto2.onrender.com/login',{
         method:"POST",
         headers:{
           Accept:"application/json",

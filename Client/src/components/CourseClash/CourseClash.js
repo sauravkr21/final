@@ -6,7 +6,7 @@ const CourseClash = () => {
   const navigate =useNavigate();
   const callClash =async()=>{
     try{
-       const res = await fetch('/courseclash',{
+       const res = await fetch('https://final-gto2.onrender.com/courseclash',{
         method:"GET",
         headers:{
           Accept:"application/json",

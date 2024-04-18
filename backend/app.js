@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(require('./router/auth'));
 app.use(require("./router/course"));
 app.use(require("./router/user"));
-const PORT=process.env.PORT;
+const PORT=process.env.PORT || 8000;
 
 
 app.listen(PORT,()=>{

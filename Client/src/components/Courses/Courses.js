@@ -15,7 +15,7 @@ const Courses = () => {
   const callCoursePage =()=>new Promise(async(resolve, reject)=>{
     let res;
     try{
-      res = await fetch('/user',{
+      res = await fetch('https://final-gto2.onrender.com/user',{
         method:"GET", 
         headers:{
         Accept:"application/json",

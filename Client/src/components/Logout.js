@@ -8,7 +8,7 @@ const Logout =() =>{
     const {state,dispatch} = useContext(UserContext);
         
     useEffect(()=> {
-        fetch('http://localhost:8000/logout',{
+        fetch('https://final-gto2.onrender.com/logout',{
             method:"POST",
             headers:{
                 Accept:"application/json",
